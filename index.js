@@ -87,8 +87,8 @@ program
     .description(`Simple wrapper of bower-locker that creates a snapshot for future comparison(instead of locking the dependencies. The snapshot will be useful to compute the delta in (transitive) dependencies, which can be useful for denugging/explaining differences`)
     .option('--lock', 'lock the current bower usage in a new bower.json')
     .option('--unlock', 'unlock the current bower usage back to the original bower.json')
-    .option('--compare <value>', 'validate the given tag/commit or currently snapshotted bower-snap.json matches the bower_components', c => c, 'current')
-    .option('--compare-path <value>', 'validate the given file reference (should be full path) matches the bower_components', c => c, 'current')
+    .option('--compare [value]', 'validate the given tag/commit or currently snapshotted bower-snap.json matches the bower_components', c => c, 'current')
+    .option('--compare-path <value>', 'validate the given file reference (should be full path) matches the bower_components')
     .option('--snap', 'create a bower-snap file')
     .option('-v, --verbose', 'turn on verbose output')
     // .action(function (cmd) {

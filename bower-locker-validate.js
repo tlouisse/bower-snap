@@ -96,6 +96,10 @@ function validate(isVerbose, comparisonFileStr) {
         console.log('\n');
     }
 
+    if(!differentVersions.length && !notInSnaphot.length && !notInBowerComponents.length) {
+        console.log('Comparison complete. No differences were found');
+    }
+
     // console.log('Validation complete: %s error(s) found.', errorsFound);
     if (errorsFound) {
         process.exit(1);
