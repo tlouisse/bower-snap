@@ -1,0 +1,27 @@
+{
+  "name": "bower-snap",
+  "version": "0.0.1",
+  "description": "Simple wrapper of bower-locker that creates a snapshot for future comparison(instead of locking the dependencies. The snapshot will be useful to compute the delta in (transitive) dependencies, which can be useful for denugging/explaining differences",
+  "main": "node-lib/wc-bench.js",
+  "bin": {
+    "bower-snap": "./index.js"
+  },
+  "dependencies": {
+    "bower-locker": "^1.0.7",
+    "commander": "^2.11.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlouisse/bower-snap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tlouisse/bower-snap/issues"
+  },
+  "homepage": "https://github.com/tlouisse/bower-snap#readme"
+}
