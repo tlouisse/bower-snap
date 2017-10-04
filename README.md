@@ -34,4 +34,4 @@ bower-snap --compare-path '/my/snapshot/path.json'
 
 
 ## Committing snapshots
-Bower-snapshots can be comitted. They are then tied to the commit(or tag) If you created a new .bower-snap file, makes sure it reflects the correct status on your commit
+Bower-snapshots can be committed. They are then tied to the commit(or tag) If you created a new .bower-snap file, makes sure it reflects the correct status on your commit
